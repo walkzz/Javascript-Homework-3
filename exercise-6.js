@@ -7,14 +7,29 @@
 
 
 let cities = [
-"Tokyo", 
-"Paris", 
-"Sydney", 
-"Cairo", 
-"Toronto", 
-"Buenos", 
-"Aires", 
-"Reykjavik", 
-"Nairobi", 
-"Berlin", 
-"San Francisco"];
+    "Tokyo",
+    "Paris",
+    "Sydney",
+    "Cairo",
+    "Toronto",
+    "Buenos",
+    "Aires",
+    "Reykjavik",
+    "Nairobi",
+    "Berlin",
+    "San Francisco"];
+
+// loop methods
+function forIn() {
+    for (let city in cities) { // for-in
+        console.log(cities[city]);
+    }
+}
+function forOf() {
+    for (let city of cities) { // for-in
+        console.log(city);
+    }
+}
+forIn();
+console.log("--------------------------------------");
+forOf(); // calling the functions
