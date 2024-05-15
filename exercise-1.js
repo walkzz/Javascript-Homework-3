@@ -12,13 +12,13 @@
 const book = {
     title: "Lorem Ipsum",
     author: "Pavel Toshinski",
-    genres: ["Programming", "Technology"];
+    genres: ["Programming", "Technology"]
 }
 const car = {
 
 }
 const student = {
-    
+
 }
 console.log(book);
 console.log(car);
