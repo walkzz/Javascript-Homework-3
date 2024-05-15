@@ -34,7 +34,7 @@ for (let i = start; i <= end; i++) {
     sum += i;
   }
 }
-console.log("Sum of even numbers:", total);
+console.log("Sum of even numbers:", sum);
 
 // v
 const person = {
@@ -42,3 +42,6 @@ const person = {
     age: 23,
     city: "Skopje"
 };
+for(let key in person){
+    console.log(`${key}: ${person[key]}`);
+}
