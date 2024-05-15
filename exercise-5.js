@@ -13,7 +13,7 @@ for (let i = 1; i <= 100; i += 2) {
 }
 
 // b
-for(let i = 1; i <= 50; i ++){
+for(let i = 1; i <= 50; i++){
     if (i % 2 === 0) {
         console.log(i);
       }
