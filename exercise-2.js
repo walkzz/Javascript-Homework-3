@@ -35,3 +35,10 @@ for (let i = start; i <= end; i++) {
   }
 }
 console.log("Sum of even numbers:", total);
+
+// v
+const person = {
+    name: "Pavel",
+    age: 23,
+    city: "Skopje"
+};
