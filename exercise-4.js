@@ -24,9 +24,9 @@ const students = [
             city: "Skopje",
             street: {
                 name: "Str. Confidental 15/1-2",
-                number: 123
-            },
-            zipCode: "1000"
+                number: 123,
+                zipCode: "1000"
+            }
         }
     },
     {
@@ -37,9 +37,9 @@ const students = [
             city: "Los Angeles",
             street: {
                 name: "Sunset Boulevard",
-                number: 456
-            },
-            zipCode: "90001"
+                number: 456,
+                zipCode: "90001"
+            }
         }
     }
 ];
