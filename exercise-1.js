@@ -25,11 +25,25 @@ const car = {
             city: "Fremont",
             state: "CA",
             country: "USA"
-          }
+        }
     }
 }
 const student = {
-
+    name: "Pavel Toshinski",
+    age: 23,
+    major: "Computer Science",
+    courses: [ // array that has 2 items/objects
+        {
+            name: "Data Science",
+            code: "CS101",
+            instructor: "Prof. Bojan"
+        },
+        {
+            name: "Java Algorithms",
+            code: "CS102",
+            instructor: "Prof. Jovan"
+        }
+    ],
 }
 console.log(book);
 console.log(car);
