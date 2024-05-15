@@ -21,15 +21,16 @@ let cities = [
 
 // loop methods
 function forIn() {
-    for (let city in cities) { // for-in
+    for (let city in cities) { 
         console.log(cities[city]);
     }
 }
 function forOf() {
-    for (let city of cities) { // for-in
+    for (let city of cities) { 
         console.log(city);
     }
 }
+// calling the functions
 forIn();
 console.log("--------------------------------------");
-forOf(); // calling the functions
+forOf(); 
