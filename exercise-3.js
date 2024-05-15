@@ -15,7 +15,7 @@ console.log(str);
 
 // b
 let num = 10;
-let s = "" // empty string
+let s = ""; // empty string
 do{
     s += num + " ";
     if(num === 5){
