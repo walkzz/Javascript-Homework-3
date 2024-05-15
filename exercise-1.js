@@ -15,7 +15,18 @@ const book = {
     genres: ["Programming", "Technology"]
 }
 const car = {
-
+    make: "Skoda",
+    model: "Skoda Felicia",
+    year: 2000,
+    owner: {
+        name: "Pavel Toshinski",
+        address: {
+            street: "1234 Elm Street",
+            city: "Fremont",
+            state: "CA",
+            country: "USA"
+          }
+    }
 }
 const student = {
 
