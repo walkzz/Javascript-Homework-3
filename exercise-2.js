@@ -24,3 +24,14 @@
 for (let i = 0; i <= 10; i++) {
     console.log(i);
 }
+
+// b
+let start = 3;
+let end = 10;
+let sum = 0;
+for (let i = start; i <= end; i++) { 
+  if (i % 2 === 0) {
+    sum += i;
+  }
+}
+console.log("Sum of even numbers:", total);
